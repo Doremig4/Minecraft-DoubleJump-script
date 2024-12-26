@@ -1,0 +1,34 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "더블점프",
+    "name": "DoubleJump script",
+    "uuid": "b3f196f0-b0a0-11ee-d8c3-fbb1c5c560d4",
+    "min_engine_version": [1, 20, 50],
+    "version": [0, 0, 1]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "b3f20c20-b0a0-11ee-8ca1-a5b084188970",
+      "version": [0, 0, 1]
+    },
+    {
+      "type": "script",
+      "uuid": "b3f28150-b0a0-11ee-8302-916516152aac",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "version": [0, 0, 1]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.17.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.4.0-beta"
+    }
+  ]
+}
